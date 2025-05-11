@@ -7,7 +7,6 @@ import { translations } from '../../translations';
 const Header = () => {
 
     const { language, toggleLanguage } = useLanguage();
-    const t = translations[language].header;
     return (
         <>
             <div className="header-bottom sticky-top">
